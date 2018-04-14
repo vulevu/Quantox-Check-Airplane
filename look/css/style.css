@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Arsenal;
+    src: url(../../look/fonts/arsenal/Arsenal-Regular.otf);
+}
+@font-face {
+    font-family: Arsenal;
+    src: url(../../look/fonts/arsenal/Arsenal-Bold.otf);
+    font-weight: bold;
+}
+* {
+    font-family: Arsenal;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #666;
+    background-image: url(../../look/img/bg.png);
+    background-repeat: repeat;
+}
+/* sadržaj */
+#logo {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 900px;
+    width: 90%;
+}
+#main {
+    margin: 20px auto;
+    padding: 2%;
+    max-width: 900px;
+    width: 90%;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+    text-align: center;
+}
+.button {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    border: 1px solid #4CAF50;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    outline: none;
+}
+#footer {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 900px;
+    width: 90%;
+}
+img#man {
+    float: left;
+}
+a {
+    color: #006400;
+    text-decoration: none;
+}
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+@media screen and (max-width: 880px) {
+
+    #main {
+        padding: 4%;
+    }
+    img#man {
+        float: none;
+    }
+}
